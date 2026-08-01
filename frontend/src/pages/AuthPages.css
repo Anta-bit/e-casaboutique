@@ -1,0 +1,41 @@
+/* Auth Pages CSS */
+.auth-page {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+}
+
+.auth-page .card {
+  border: none;
+  border-radius: 10px;
+}
+
+.auth-page .form-control,
+.auth-page .form-control:focus {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 12px;
+}
+
+.auth-page .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.auth-page .btn {
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.auth-page a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.auth-page a:hover {
+  text-decoration: underline;
+}
+

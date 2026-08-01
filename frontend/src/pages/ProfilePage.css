@@ -1,0 +1,45 @@
+/* ProfilePage Premium CSS */
+.profile-page {
+  background-color: #f5f6f9;
+  min-height: 70vh;
+}
+
+.profile-page .card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+
+.avatar-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  background-color: rgba(230, 81, 0, 0.1);
+  color: #e65100;
+  border: 1px solid rgba(230, 81, 0, 0.15);
+}
+
+.profile-info-details .text-secondary {
+  color: #777 !important;
+}
+
+.profile-page .form-control {
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 8px 12px;
+}
+
+.profile-page .form-control:focus {
+  border-color: #ff8f00;
+  box-shadow: 0 0 0 3px rgba(255, 143, 0, 0.15);
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+
+.table td {
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}

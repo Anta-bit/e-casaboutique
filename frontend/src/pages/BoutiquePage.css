@@ -1,0 +1,36 @@
+/* Boutique Page CSS */
+.boutique-page {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  min-height: calc(100vh - 300px);
+}
+
+.filters {
+  position: sticky;
+  top: 100px;
+}
+
+.filters h6 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.filters .form-check {
+  margin-bottom: 0.5rem;
+}
+
+.category-card .card {
+  transition: all 0.3s ease;
+}
+
+.category-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .filters {
+    position: static;
+  }
+}
+

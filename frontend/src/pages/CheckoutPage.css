@@ -1,0 +1,50 @@
+/* CheckoutPage Premium CSS */
+.checkout-page {
+  background-color: #f5f6f9;
+  min-height: 70vh;
+}
+
+.checkout-page .card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+
+.payment-option-card {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.2s ease;
+}
+
+.payment-option-card:hover {
+  border-color: #2d6a4f !important;
+  background-color: rgba(45, 106, 79, 0.02);
+}
+
+.payment-option-card.active {
+  border-color: #1b4332 !important;
+  background-color: rgba(45, 106, 79, 0.06);
+}
+
+.payment-option-card.active h6 {
+  color: #1b4332 !important;
+}
+
+.checkout-page button[type="submit"] {
+  background: linear-gradient(135deg, #1b4332, #2d6a4f);
+  border: none;
+}
+
+.checkout-page button[type="submit"]:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2d6a4f, #52b788);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(27, 67, 50, 0.2);
+}
+
+.checkout-items-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.checkout-items-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}

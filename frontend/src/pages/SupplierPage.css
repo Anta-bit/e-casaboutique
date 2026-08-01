@@ -1,0 +1,114 @@
+/* Espace Fournisseur CSS */
+.supplier-page {
+  background-color: #f5f6f9;
+  min-height: 80vh;
+}
+
+/* Sidebar Navigation */
+.supplier-page .sidebar-nav {
+  border: 1px solid rgba(0,0,0,0.03) !important;
+}
+
+.supplier-page .btn-sidebar {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #555;
+  transition: all 0.2s ease;
+  margin-bottom: 4px;
+}
+
+.supplier-page .btn-sidebar:hover {
+  background-color: rgba(230, 81, 0, 0.05);
+  color: #e65100;
+}
+
+.supplier-page .btn-sidebar.active {
+  background: linear-gradient(135deg, #e65100, #ff8f00);
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(230, 81, 0, 0.2);
+}
+
+/* KPI Cards */
+.supplier-page .kpi-card {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.01) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.supplier-page .kpi-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* Forms and Inputs */
+.supplier-page .form-control,
+.supplier-page .form-select {
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 8px 12px;
+}
+
+.supplier-page .form-control:focus,
+.supplier-page .form-select:focus {
+  border-color: #ff8f00;
+  box-shadow: 0 0 0 3px rgba(255, 143, 0, 0.15);
+}
+
+/* Tables */
+.supplier-page .table th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+
+.supplier-page .table td {
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+
+.supplier-page .table-hover tbody tr:hover {
+  background-color: rgba(230, 81, 0, 0.01) !important;
+}
+
+.supplier-page .spin {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bg-primary-subtle {
+  background-color: rgba(13, 110, 253, 0.08) !important;
+}
+
+.bg-success-subtle {
+  background-color: rgba(25, 135, 84, 0.08) !important;
+}
+
+.bg-info-subtle {
+  background-color: rgba(13, 202, 240, 0.08) !important;
+}
+
+.bg-warning-subtle {
+  background-color: rgba(255, 193, 7, 0.08) !important;
+}
+
+.dot-blink {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}

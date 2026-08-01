@@ -1,0 +1,40 @@
+/* CartPage Premium CSS */
+.cart-page {
+  background-color: #f5f6f9;
+  min-height: 70vh;
+}
+
+.cart-page .card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.table td {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.summary-card {
+  border: 1px solid rgba(0,0,0,0.03) !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06) !important;
+}
+
+.summary-card button {
+  background: linear-gradient(135deg, #1b4332, #2d6a4f);
+  border: none;
+}
+
+.summary-card button:hover {
+  background: linear-gradient(135deg, #2d6a4f, #52b788);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(27, 67, 50, 0.2);
+}
+
+.btn-link-primary:hover {
+  color: #2d6a4f !important;
+}

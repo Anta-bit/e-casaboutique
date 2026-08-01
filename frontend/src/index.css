@@ -1,0 +1,97 @@
+/* Index CSS - Thème Vert Casamance */
+:root {
+  --casamance-dark: #1b4332;      /* Vert forêt dense */
+  --casamance-medium: #2d6a4f;    /* Vert émeraude */
+  --casamance-light: #52b788;     /* Vert feuille */
+  --casamance-mint: #74c69d;      /* Vert menthe douce */
+  --casamance-accent: #d4a373;    /* Or sableux / terre cuite */
+  --casamance-bg: #f4f9f4;        /* Fond très légèrement verdoyant */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--casamance-bg);
+  color: #2b3958;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-content {
+  min-height: calc(100vh - 200px);
+}
+
+.container-fluid {
+  max-width: 1400px;
+}
+
+/* Surcharges Bootstrap pour le thème Vert Casamance */
+.btn-primary {
+  background-color: var(--casamance-dark) !important;
+  border-color: var(--casamance-dark) !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 10px rgba(27, 67, 50, 0.15) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--casamance-medium) !important;
+  border-color: var(--casamance-medium) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(27, 67, 50, 0.25) !important;
+}
+
+.btn-outline-primary {
+  color: var(--casamance-dark) !important;
+  border-color: var(--casamance-dark) !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+  background-color: var(--casamance-dark) !important;
+  color: white !important;
+  border-color: var(--casamance-dark) !important;
+}
+
+.text-primary {
+  color: var(--casamance-medium) !important;
+}
+
+.text-success {
+  color: var(--casamance-medium) !important;
+}
+
+.bg-primary {
+  background-color: var(--casamance-dark) !important;
+}
+
+.bg-success {
+  background-color: var(--casamance-medium) !important;
+}
+
+.border-primary {
+  border-color: var(--casamance-dark) !important;
+}
+
+/* Surcharges liens de navigation */
+.navbar-light .navbar-nav .nav-link {
+  color: #4a5568 !important;
+  transition: all 0.2s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--casamance-medium) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--casamance-dark) !important;
+  font-weight: bold;
+}
